@@ -16,13 +16,13 @@ $host = $_SERVER['SERVER_NAME'];
 define("host", $host);
 
 //Configuração Local
-if (host == "127.0.0.1") {
+if (host == "wrpanel.mp") {
   define("wr_mysql_host", "127.0.0.1"); //Servidor MySQL. Padrão: localhost
   define("wr_mysql_user", "root"); //Usuario MySQL. Padrão: root
-  define("wr_mysql_password", "mestre"); //Senha do Usuario MySQL.
-  define("wr_mysql_db", "webradio"); //Database do MySQL.
+  define("wr_mysql_password", ""); //Senha do Usuario MySQL.
+  define("wr_mysql_db", "millerde_radio"); //Database do MySQL.
 
-  define("serial", "baacc1761981fd351f1030a6460fdffab"); //Serial de ativação do Painel
+  define("serial", "baacc1761981fd3551f1030a6460fdffab"); //Serial de ativação do Painel
 }
 
 //Configuração Remota
